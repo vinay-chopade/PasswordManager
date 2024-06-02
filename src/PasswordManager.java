@@ -22,7 +22,7 @@ import javax.crypto.spec.PBEParameterSpec;
 // This class is used to create a loading screen
 class SplashScreen {
     JFrame frame;
-    JLabel image = new JLabel(new ImageIcon(getClass().getResource("key-lock1.png")));
+    JLabel image = new JLabel(new ImageIcon(getClass().getResource("key-lock.png")));
     //JLabel image=new JLabel(new ImageIcon("key-lock.png"));
     JLabel text=new JLabel("PASSWORD & NOTES MANAGER");
     JProgressBar progressBar=new JProgressBar();
